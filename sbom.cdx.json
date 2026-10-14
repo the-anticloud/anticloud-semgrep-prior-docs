@@ -1,0 +1,158 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9fbbd102-9f8e-526c-8273-70345b5d38de",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T14:25:18Z",
+    "component": {
+      "type": "application",
+      "name": "SEMGREP_PRIOR_DOCS",
+      "version": "31729a1719c6",
+      "bom-ref": "pkg:generic/anticloud/SEMGREP_PRIOR_DOCS@31729a1719c6",
+      "purl": "pkg:generic/anticloud/SEMGREP_PRIOR_DOCS@31729a1719c6",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "31729a1719c6e76ac8d41ec8fb9ab191621ee10f"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/semgrep/semgrep"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "attrs",
+      "version": ">=21.3",
+      "purl": "pkg:pypi/attrs@21.3",
+      "bom-ref": "pypi/attrs@>=21.3"
+    },
+    {
+      "type": "library",
+      "name": "boltons",
+      "version": "~=21.0",
+      "purl": "pkg:pypi/boltons@21.0",
+      "bom-ref": "pypi/boltons@~=21.0"
+    },
+    {
+      "type": "library",
+      "name": "click-option-group",
+      "version": "~=0.5",
+      "purl": "pkg:pypi/click-option-group@0.5",
+      "bom-ref": "pypi/click-option-group@~=0.5"
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": "~=8.4.2",
+      "purl": "pkg:pypi/click@8.4.2",
+      "bom-ref": "pypi/click@~=8.4.2"
+    },
+    {
+      "type": "library",
+      "name": "colorama",
+      "version": "~=0.4.0",
+      "purl": "pkg:pypi/colorama@0.4.0",
+      "bom-ref": "pypi/colorama@~=0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "exceptiongroup",
+      "version": "~=1.2.0",
+      "purl": "pkg:pypi/exceptiongroup@1.2.0",
+      "bom-ref": "pypi/exceptiongroup@~=1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "glom",
+      "version": ">=23.3",
+      "purl": "pkg:pypi/glom@23.3",
+      "bom-ref": "pypi/glom@>=23.3"
+    },
+    {
+      "type": "library",
+      "name": "jsonschema",
+      "version": "~=4.25.1",
+      "purl": "pkg:pypi/jsonschema@4.25.1",
+      "bom-ref": "pypi/jsonschema@~=4.25.1"
+    },
+    {
+      "type": "library",
+      "name": "mcp",
+      "version": "==1.29.0",
+      "purl": "pkg:pypi/mcp@1.29.0",
+      "bom-ref": "pypi/mcp@==1.29.0"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-api",
+      "version": "~=1.37.0",
+      "purl": "pkg:pypi/opentelemetry-api@1.37.0",
+      "bom-ref": "pypi/opentelemetry-api@~=1.37.0"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-sdk",
+      "version": "~=1.37.0",
+      "purl": "pkg:pypi/opentelemetry-sdk@1.37.0",
+      "bom-ref": "pypi/opentelemetry-sdk@~=1.37.0"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-exporter-otlp-proto-http",
+      "version": "~=1.37.0",
+      "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.37.0",
+      "bom-ref": "pypi/opentelemetry-exporter-otlp-proto-http@~=1.37.0"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-instrumentation-requests",
+      "version": "~=0.58b0",
+      "purl": "pkg:pypi/opentelemetry-instrumentation-requests@0.58b0",
+      "bom-ref": "pypi/opentelemetry-instrumentation-requests@~=0.58b0"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-instrumentation-threading",
+      "version": "~=0.58b0",
+      "purl": "pkg:pypi/opentelemetry-instrumentation-threading@0.58b0",
+      "bom-ref": "pypi/opentelemetry-instrumentation-threading@~=0.58b0"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": ">=21.0",
+      "purl": "pkg:pypi/packaging@21.0",
+      "bom-ref": "pypi/packaging@>=21.0"
+    },
+    {
+      "type": "library",
+      "name": "peewee",
+      "version": "~=3.14",
+      "purl": "pkg:pypi/peewee@3.14",
+      "bom-ref": "pypi/peewee@~=3.14"
+    },
+    {
+      "type": "library",
+      "name": "The",
+      "version": "unspecified",
+      "purl": "pkg:pypi/the",
+      "bom-ref": "pypi/The@unspecified"
+    }
+  ]
+}
